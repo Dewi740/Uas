@@ -1,0 +1,124 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT, calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 15px; 
+  background-color: pink;
+  .container { 
+    max-width: 600px; 
+    align-items: center; 
+    display: flex; 
+    margin: auto; 
+    flex-direction: column;
+    gap: 1px;
+} 
+Img { 
+  max-width: 100px; 
+  border-radius: 70%;
+}
+.link { 
+  display: block; 
+  width: 100%; 
+  border: 1px #888 solid; 
+  padding: 15px; 
+  box-shadow: 4px 4px rgb(0, 0, 0); 
+  margin: 15px; 
+  margin-top: 0;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 1000px;
+  background-color: silver;
+}
+  link a {
+    text-decoration: none; 
+    color: #fff;
+  }
+  /*latihan 1*/
+  html,body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {
+    font-family: Arial,helvetica,sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 500px;
+  }
+  
+  .container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+  .kolom.utama {
+    flex: 3;
+    border: 2;
+  }
+  
+  .sidebar.satu {
+    flex: 1;
+    border: 1;
+  }
+  
+  .sidebar.dua {
+    flex: 1;
+    border: 3;
+  }
+  
+  /*latihan 2 */
+  
+  .container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .layanan {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .layanan.satu {background-color: rgb(110, 119, 255); }
+  .layanan.dua {background-color: rgb(103,216, 103);}
+  .layanan.tiga {background-color: rgb(255,  124, 124);}
+  
+  /*responsive*/
+  @media (min-width: 600px) {
+    .container.dua {
+      display: flex;
+      justify-content: space-between;
+    }
+    .layanan {
+      width: 30%;
+    }
+  }
+  footer {
+    background-color: #99999999;
+    color: #fff;
+    padding: 2px;
+}
+.footer-content, .footer-links, .social-media, .footer-bottom {
+    margin-bottom: 15px;
+}
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.social-media img {
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+}
